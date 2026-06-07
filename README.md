@@ -1,28 +1,48 @@
-# Bilirubin Estimation Device
+# Non-invasive Neonatal Bilirubin Estimation System
 
-## Project Overview
-This project is a non-invasive neonatal jaundice estimation system using optical reflectance sensing. It is designed as a biomedical embedded prototype to reduce the need for blood-based bilirubin testing.
+## 🧠 Problem Statement
+Neonatal jaundice is a common condition in newborns caused by elevated bilirubin levels. Traditional bilirubin measurement methods are invasive and may cause discomfort. This project aims to design a non-invasive system for estimating bilirubin levels using optical sensing and computational processing.
 
-## Objective
-To estimate bilirubin levels using sensor-based optical frequency analysis and microcontroller processing.
+---
 
-## Hardware Used
-- Arduino / ESP32
-- Optical sensor module
-- LCD display (16x2)
-- Status LED
+## ⚙️ System Overview
+The system captures optical signals from neonatal skin using a sensor setup. The signals are processed and analyzed to estimate bilirubin levels.
 
-## Working Principle
-- Sensor captures reflected light intensity
-- Microcontroller reads frequency signal
-- Signal is averaged to reduce noise
-- Calibration mapping converts signal into bilirubin estimate
-- Output is displayed on LCD
+---
 
-## Output Classification
-- Normal
-- Mild
-- High Risk
+## 🏗️ System Architecture
+1. Optical sensor captures reflected light  
+2. Arduino processes raw sensor data  
+3. Data is transferred for analysis  
+4. Algorithm estimates bilirubin level  
+5. Output is displayed
 
-## Note
-This is a prototype-level system for academic and research demonstration purposes.
+---
+
+## 🧰 Technologies Used
+- Arduino Uno (or equivalent microcontroller)
+- Optical Sensor (Photodiode / LED setup)
+- Embedded C (Arduino programming)
+- Python (for processing - if applicable)
+
+---
+
+## 📁 Repository Structure
+- hardware/ → Arduino implementation
+- src/ → Future data processing / analysis code
+- README.md → Project documentation
+
+---
+
+## 📊 Output
+The system generates estimated bilirubin levels based on sensor readings.
+
+---
+
+## 🎯 Objective
+To develop a low-cost, non-invasive screening system for early detection of neonatal jaundice.
+
+---
+
+## 👩‍💻 Author
+Biomedical Engineering Student
