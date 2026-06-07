@@ -29,5 +29,8 @@ The system generates estimated bilirubin levels based on sensor readings.
 ## Objective
 To develop a low-cost, non-invasive screening system for early detection of neonatal jaundice.
 
-## Author
-Biomedical Engineering Student
+## 👩‍💻 Author
+Abitha Ganesan  
+B.E. Biomedical Engineering Student  
+Passionate about biomedical signal processing and non-invasive medical devices  
+GitHub: https://github.com/yourusername
