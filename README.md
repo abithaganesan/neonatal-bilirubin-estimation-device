@@ -7,6 +7,7 @@ Neonatal jaundice is a common condition in newborns caused by elevated bilirubin
 The system captures optical signals from neonatal skin using a sensor setup. The signals are processed using an Arduino-based system to estimate bilirubin levels.
 
 ## System Architecture
+![System Architecture](system_architecture.png)
 
 ### Workflow
 - Optical sensor captures reflected light from skin  
