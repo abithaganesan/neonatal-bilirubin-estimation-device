@@ -33,4 +33,4 @@ To develop a low-cost, non-invasive screening system for early detection of neon
 Abitha Ganesan  
 B.E. Biomedical Engineering Student  
 Passionate about biomedical signal processing and non-invasive medical devices  
-GitHub: https://github.com/yourusername
+GitHub: https://github.com/abithaganesan
