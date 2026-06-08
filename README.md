@@ -11,6 +11,8 @@ The system captures optical signals from neonatal skin using a sensor setup. The
 3. Data is transferred for analysis  
 4. Algorithm estimates bilirubin level  
 5. Output is displayed
+## System Architecture
+![System Architecture](system_architecture.png)
 
 ## Technologies Used
 - Arduino Uno (or equivalent microcontroller)
